@@ -48,25 +48,7 @@ Synthetic data was generated simulating device logs:
 > - Normal Devices: 60  
 > - Faulty Devices: 40  
 
----
 
-## 🔊 Sensor Noise Simulation
-
-Noise was systematically added using:
-
-```python
-def inject_noise(data, std_dev):
-    noise = np.random.normal(0, std_dev, data.shape)
-    return np.clip(data + noise, 0, np.max(data))
-## ⚙️ How to Use
-
-This project allows you to detect hardware faults using minimal and noisy data in a realistic IoT simulation.
-
-### 📦 Requirements
-
-- Python 3.8 or higher
-- pip (Python package manager)
-- Dependencies listed in `requirements.txt`
 
 ---
 
