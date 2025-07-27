@@ -164,7 +164,7 @@ If this work contributes to your research, please reference:
   title = {Robust Fault Detection in Noisy, Small-Scale IoT Datasets},
   year = {2024},
   publisher = {GitHub},
-  url = {https://github.com/kanishka-mohankumar/Fault-Rise-Detection}
+  url = {https://github.com/kanishka-mohankumar/Fault-Rate-Detection}
 }
 ```
 
