@@ -71,29 +71,29 @@ python generate_device_data.py
 python fault_model.py
 
 # Step 5: Make predictions using new data
-python predict.py --memory 75 --traffic 120 --latency 45
-## 🧠 Innovations and Contributions
+python predict.py --memory 75 --traffic 120 --latency 45```
+## 🧠 **Innovations and Contributions**
 
-### 🚀 Practical ML in Low-Data Environments
+### 🚀 **Practical ML in Low-Data Environments**
 
 - Designed to perform fault detection with **only 100 samples**, ideal for IoT environments with minimal historical data.
 - Introduces **Gaussian noise** to simulate **real-world sensor irregularities** and degradation.
 
-### 🧪 Robust Evaluation Pipeline
+### 🧪 **Robust Evaluation Pipeline**
 
 - **Stratified 5-fold Cross-Validation** for balanced model training
 - **Noise sensitivity tests** at multiple standard deviations (σ = 1, 5, 10, 15)
 - **SHAP value analysis** for feature importance and model explainability
 - **Confidence intervals** using bootstrap resampling for performance stability
 
-### 💡 Model Simplicity vs. Performance
+### 💡 **Model Simplicity vs. Performance**
 
 - Demonstrates that **simpler models like Logistic Regression** can outperform complex ones when data is scarce and noisy
 - Highlights **interpretability, efficiency, and deployability** in constrained environments
 
 ---
 
-## 🏆 Recognition
+## 🏆 **Recognition**
 
 🥇 **Best Small Data ML Project – DataSet2024 Hackathon**  
 🏢 Received **Internship Opportunity from Nokia**  
@@ -102,7 +102,7 @@ python predict.py --memory 75 --traffic 120 --latency 45
 
 ---
 
-## 📄 License
+## 📄 **License**
 
 This project is licensed for **academic, educational, and research use**.
 
@@ -115,11 +115,7 @@ You are permitted to:
 
 ---
 
-## 📚 Citation
+## 📚 **Citation**
 
 If you use this project in your academic research, reports, or presentations, please cite it as follows:
 
-## 🙋‍♂️ About the Author
-
-[@kanishka-mohankumar](https://github.com/kanishka-mohankumar)
-> Made with 💡 logic, 📊 data, and passion for real-world ML applications.
