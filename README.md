@@ -110,7 +110,7 @@ python fault_model.py
 
 5. **Run anomaly detection:**
 ```bash
-python fault_detector.py --cpu 78 --bandwidth 128 --latency 52
+python predict.py --cpu 78 --bandwidth 128 --latency 52
 ```
 
 ## 🔬 Technical Innovation Highlights
