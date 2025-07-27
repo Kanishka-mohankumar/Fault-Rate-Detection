@@ -89,7 +89,7 @@ Output: FAULTY ⚠️ (Confidence: 0.73)
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/kanishka-mohankumar/iot-fault-detection.git
+git clone https://github.com/kanishka-mohankumar/Fault-Rate-Detection.git
 cd iot-fault-detection
 ```
 
@@ -100,12 +100,12 @@ pip install -r requirements.txt
 
 3. **Generate synthetic dataset with noise:**
 ```bash
-python create_noisy_dataset.py
+python generate_device_dataset.py
 ```
 
 4. **Train and benchmark models:**
 ```bash
-python train_models.py
+python fault_model.py
 ```
 
 5. **Run anomaly detection:**
